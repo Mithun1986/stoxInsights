@@ -1,0 +1,193 @@
+@import "./utils/variables";
+
+body,
+html {
+	font-size: $baseFont;
+	line-height: normal;
+	font-weight: 400;
+	background-color: $primaryBg;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: $primaryFont;
+}
+
+ul,
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article {
+	margin: 0;
+	line-height: 160%;
+	font-weight: 400;
+	font-family: "Plus Jakarta Sans";
+}
+
+
+p,
+a {
+	margin: 0;
+	line-height: 160%;
+	font-weight: 400;
+}
+
+strong {
+	font-weight: 700;
+}
+
+p,
+a,
+li {
+	font-weight: 300;
+}
+
+.navbar {
+	background: var(--white, #FFF);
+    padding: 26px 0px;
+    width: 100%;
+
+	.navbar-brand {
+		padding: 0;
+
+		img {
+			width: 234px;
+			@media(max-width:767px) {
+				width: 140px;
+			}
+		}
+
+	}
+
+	.navbar-collapse {
+		justify-content: end;
+
+		.navbar-nav {
+			.nav-link {
+				color: $black;
+				font-family: $primaryFont;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 20.651px; /* 129.07% */
+				letter-spacing: -0.16px;
+				padding: 0px 26px;
+			}
+		}
+		
+	}
+
+	.sign-btn {
+		a {
+			border-radius: 32px;
+			background: #147BFB;
+			color: var(--white, #FFF);
+			font-family: Manrope;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 24px; /* 133.333% */
+			letter-spacing: -0.18px;
+			padding: 12px 30px;
+			margin-left: 60px;
+		}
+	}
+
+
+}
+
+.banner {
+	border-radius: 0px 0px 30px 30px;
+	background: #F5F9FD;
+	padding: 60px 0px;
+
+	
+
+	.banner-info {
+		h1 {
+			color: #032B69;
+			font-family: Manrope;
+			font-size: 60px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 76px; /* 126.667% */
+		}
+			p {
+				color: #383838;
+				font-family: Manrope;
+				font-size: 31px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 40px; /* 129.032% */
+				margin-top: 16px;
+		}
+		span {
+			display: block;
+			color: #171717;
+			font-family: Manrope;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			margin: 24px 0px;
+			img {
+				margin-right: 8px;
+			}
+		}
+		a {
+			border-radius: 43.632px;
+			background: #147BFB;
+			color: var(--white, #FFF);
+			font-family: Manrope;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 30.799px; /* 171.107% */
+			display: inline-block;
+			padding: 15px 26px;
+			img {
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.banner-img {
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			border-radius: 519px;
+			background: rgba(201, 228, 255, 0.5);
+			width: 498px;
+			height: 498px;
+			right: 0;
+			
+		}
+		img {
+			width: 100%;
+			position: relative;
+		}
+	}
+}
+
+
