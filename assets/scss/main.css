@@ -4,7 +4,7 @@ html {
   font-size: 1rem;
   line-height: normal;
   font-weight: 400;
-  background-color: #FAF9F9;
+  background-color: #fff;
 }
 
 * {
@@ -166,4 +166,201 @@ li {
 .banner .banner-img img {
   width: 100%;
   position: relative;
+}
+
+.primary-setion {
+  margin-top: 100px;
+}
+
+.learning {
+  border-radius: 32px;
+  background: #F5F9FD;
+}
+.learning img {
+  width: 540px;
+  top: -40px;
+  position: absolute;
+  bottom: 0;
+}
+.learning h3 {
+  color: #151515;
+  font-family: Manrope;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px; /* 128.571% */
+  letter-spacing: -1.68px;
+  margin-top: 56px;
+  padding-right: 120px;
+}
+.learning h3 span {
+  color: #147BFB;
+  font-weight: 700;
+}
+.learning ul {
+  margin: 30px 0px 50px;
+}
+.learning ul li {
+  background-image: url("../images/check.svg");
+  background-repeat: no-repeat;
+  color: #3E3F3F;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  padding: 0px 0px 16px 50px;
+}
+
+.learning-testing {
+  border-radius: 32px;
+  background: #147BFB;
+  padding: 72px 50px 36px;
+}
+.learning-testing h3 {
+  color: var(--white, #FFF);
+  font-family: Manrope;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px; /* 142.857% */
+}
+.learning-testing h3 span {
+  color: var(--white, #FFF);
+  display: block;
+  font-weight: 700;
+}
+.learning-testing ul {
+  margin: 30px 0px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.learning-testing ul li {
+  width: calc((100% - 0px) / 2);
+  background-image: url("../images/check2.png");
+  background-repeat: no-repeat;
+  color: var(--white, #FFF);
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  padding: 0px 0px 16px 50px;
+}
+.learning-testing .btns-group {
+  display: flex;
+  gap: 20px;
+}
+.learning-testing .btns-group a {
+  border-radius: 32px;
+  background: var(--white, #FFF);
+  color: #000;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 116.865%; /* 21.036px */
+  letter-spacing: -0.54px;
+  padding: 16px 26px;
+}
+.learning-testing .btns-group a + a {
+  border-radius: 43.632px;
+  background: #171717;
+  color: #fff;
+}
+
+.footer-section {
+  border-radius: 30px 30px 0px 0px;
+  background: #090B34;
+  padding: 60px 0px 40px;
+}
+.footer-section .important-read {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section .important-read .left-info {
+  width: 30%;
+}
+.footer-section .important-read .left-info h3 {
+  color: var(--font-color-white, var(--white, #FFF));
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -1.44px;
+}
+.footer-section .important-read .left-info img {
+  width: auto;
+  margin-top: 8px;
+}
+.footer-section .important-read .right-info {
+  width: 40%;
+}
+.footer-section .important-read .right-info p {
+  color: #E0E0E0;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.footer-section .important-read .right-info p + p {
+  margin-top: 20px;
+}
+.footer-section .footer-info {
+  border-top: 2px solid #667085;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.footer-section .footer-info .short-details img {
+  margin-bottom: 10px;
+}
+.footer-section .footer-info .short-details h4 {
+  color: var(--white, #FFF);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-section .footer-info .short-details p {
+  color: #DCDCDC;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  opacity: 0.6;
+}
+.footer-section .footer-info .link-d {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer-section .footer-info .link-d li a {
+  color: #DCDCDC;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.6;
+}
+.footer-section .footer-info .link-d li a span {
+  color: #fff;
+}
+
+.copyright {
+  background: #030412;
+  padding: 15px 0px;
+}
+.copyright p {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */
